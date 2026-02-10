@@ -1,9 +1,21 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Valentine's Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Page</title>
+    <script>
+        function showAlert() {
+            alert('Happy Valentine’s Day!');
+        }
+        function redirectToSite() {
+            window.location.href = 'https://yourminealwaysandforver.com/';
+        }
+    </script>
 </head>
 <body>
-<p>Welcome to my Valentine website!</p>
-<a href="https://yourminealwaysandforver.com/">Click here to visit!</a>
+    <h1>Welcome to the Valentine’s Day Page!</h1>
+    <button onclick="showAlert()">Show Alert</button>
+    <button onclick="redirectToSite()">Go to Site</button>
 </body>
 </html>
